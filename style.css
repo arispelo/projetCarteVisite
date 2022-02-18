@@ -1,0 +1,326 @@
+body{
+    background-color: #353353 !important ;
+    padding         : 0px       !important ;
+    margin-top      : 0px       !important ;
+}
+
+/* ACCUEIL */
+
+/* NAVIGATION */
+
+.navigation{
+    display : flex ;
+    margin  : 50px ;
+}
+.nav_image{
+    width      : 30%    ;
+    text-align : center ;
+}
+.logoAccueil{
+    width : 100%;
+}
+ul{
+    width       : 70%           ;
+    margin      : 20px          ;
+    display     : inline-block  ;
+    padding-top : 20px          ;
+    text-align  : right         ;
+}
+li{
+    list-style   : none         ;
+    color        : white      ;
+    display      : inline-block ;
+    margin-right : 10px         ;
+    font-size    : 30px         ;
+}
+
+/* BODY ACCUEIL */
+
+.tBody-Accueil{
+    color      : white ;
+    text-align : center  ;
+    font-size  : 30px    ;
+}
+.titre1{
+    font-size  : 100px  ;
+    margin-top : 100px ;
+}
+.p1{
+    margin-top : 50px ;
+}
+.footer-Accueil{
+    margin-top   : 200px ;
+    margin-right : 80px  ;
+    margin-left  : 80px  ;
+}
+.icone-Accueil{
+    width: 150px ;
+}
+.iconehaut{
+    display         : flex         ;
+    justify-content : space-around ;
+    align-items     : flex-start   ;
+}
+.iconebas{
+    display         : flex         ;
+    justify-content : space-around ;
+    align-items     : flex-end     ;
+    margin-top      : 150px        ;
+}
+
+
+/* NOS SERVICES */
+
+/* TITRE */
+
+.nosServices{
+    width            : 100%         ;
+    background-color : white      ;
+    margin-top       : 300px        ;
+    display          : inline-block ;
+}
+.tBody-NosServices{
+    text-align : center ;
+    width      : 100%   ;
+}
+.h2-nos-services{
+    padding-top : 100px ;
+    font-size   : 100px ;
+    font-weight : 700   ;
+}
+.p-nos-services{
+    font-size   : 50px ;
+    font-weight : 400  ;
+}
+
+/* IMAGE SERVICES */
+
+.colonne_image1{
+    
+    background-color : white ;
+    display          : flex    ;
+    flex-direction   : column  ;
+    align-items      : center  ;
+    float            : right   ;
+    padding          : 15px    ;
+}
+.colonne_image2{
+    
+    background-color : white ;
+    display          : flex    ;
+    flex-direction   : column  ;
+    align-items      : center  ;
+    float            : left    ;
+    padding          : 15px    ;
+}
+.image_service_indiv{
+
+    width         : 100% ;
+    margin        : 8%   ;
+    border-radius : 40px ;
+}
+.col-6{
+    width  : 39%    !important ;
+    margin : 10% 5% !important ;
+}
+.p_service{
+    font-size   : x-large ;
+    font-weight : 700     ;
+}
+
+/* IMAGE NOUVEAUTE */
+
+.header-Nouveaute{
+    width      : 100%   ;
+    text-align : center ;
+    margin-top : 150px  ;
+}
+
+/* NOUVEAUTE */
+
+.tBody-Nouveaute{
+    text-align : center ;
+    margin     : 100px  ;
+}
+
+.logo_nouv_body{
+    border-radius : 50px ;
+    width         : 75%  ;
+}
+
+.footer-Nouveaute{
+    text-align : center  ;
+    color      : white ;
+}
+.footer-Nouveaute h2{
+    font-size : 75px ;
+}
+.footer-Nouveaute p{
+    padding   : 100px 20% ;
+    font-size : 30px      ;
+}   
+
+
+/* A PROPOS */
+
+.aPropos{
+    text-align : center ;
+    
+}
+.aProposHB{
+    text-align       : center  ;
+    background-color : white ;
+}
+.header-aPropos{
+    background-color : white ;
+    padding          : 50px    ;
+    margin           : 50px    ;
+}
+.header-aPropos h2{
+    font-size   : 100px ;
+    font-weight : 700   ;
+}
+.tBody-aPropos{
+    margin           : 0       ;
+    background-color : white ;
+    width            : 100%    ;
+}
+.tBody-aPropos p{
+    
+    text-align       : center  ;
+    background-color : white ;
+    margin           : 0 20%   ;
+    margin-bottom    : 100px   ;
+    font-size        : 35px    ;
+    font-weight      : 400     ;
+}
+.img_laurent{
+    border           : 8px solid grey ;
+    width            : 400px            ;
+    border-radius    : 300px            ;
+    margin-bottom    : 100px            ;
+}
+.img_trust{
+    width         : 250px ;
+    margin-bottom : 100px ;
+}
+.footer-aPropos img{
+    width         : 200px ;
+    margin-top    : 100px ;
+    margin-bottom : 50px  ;
+}
+.footer-aPropos button{
+    margin-bottom : 100px ;
+}
+.btn {
+    padding       : 25px 50px !important;
+    font-size     : 2rem      !important;
+    border-radius : 150px     !important;
+}
+.btn-outline {
+    color        : #55ABB7 !important;
+    border-color : #55ABB7 !important;
+}
+.btn:focus {
+    box-shadow: 0 0 0 0.25rem rgb(85 171 183 / 25%) !important;
+}
+
+/* PARTAGE DE LA CARTE DE VISITE */
+
+.Partage{
+    background-color : white ;
+    text-align       : center  ;
+}
+.header-Partage {
+    padding-top : 75px  ;
+    margin      : 0 10% ;
+}
+.header-Partage h2{
+    font-size   : 75px ;
+    font-weight : bold ;
+}
+.tBody-Partage p{
+    margin    : 50px  ; 
+    font-size : 55px  ;
+}
+.tBody-Partage img{
+    width : 60% ;
+}
+.icone_Partage{
+    width         : 20%                                ;
+    margin        : 50px 30px                          ;
+    border-radius : 50px                               ;
+    box-shadow    : 4px 4px 4px rgb(0 0 0 / 40%)     ;
+}
+.logoPartage{
+    width         : 200px ;
+    margin-top    : 100px ;
+    margin-bottom : 50px  ;
+}
+
+/* ABONNEMENT NEWSLETTER */
+
+.newsletter{
+    text-align : center    ;
+    color      : #55ABB7 ;
+}
+.header_newsletter h2{
+    font-size   : 60px        ;
+    margin      : 100px 150px ;
+    font-weight : bold        ;
+}
+.form-label{
+    font-size : 50px ;
+    padding   : 30px ;
+}
+.form-control{
+    height          : 70px      !important;
+    text-align      : center    !important;
+    margin          : 25px      !important;
+    background-color: #353353 !important;
+    border-radius   : 25px      !important;
+}
+.form-control:focus {
+    box-shadow : 0 0 0 0.25rem rgb(85 171 183 / 25%) !important;
+}
+.tBody_newsletter button{
+    margin-top : 100px;
+}
+
+/* VISITEZ NOTRE SITE  */
+
+.Visite{
+    text-align       : center  ;
+    background-color : white ;
+    
+}
+.header-Visite h2{
+    font-size   : 80px ;
+    font-weight : bold ;
+    padding     : 50px ;
+}
+.p-visite{
+    font-size     : 40px                ;
+    padding       : 50px                ;
+    width         : 60%                 ;
+    margin        : 0 auto              ;
+    border-bottom : #353353 solid 1px ;
+}
+.tBody-Visite img{
+    width         : 50%     ;
+    border-radius : 40px    ;
+    margin        : 100px 0 ;
+}
+.btn-primary{
+    background-color : #353353           !important;
+    border           : #353353 2px solid !important;
+    font-weight      : bold                !important;
+    border-radius    : 25px                !important;
+    margin           : 100px 0             !important;
+    margin-bottom    : 100px               !important;
+}
+.btn-primary:focus{
+    box-shadow: 0 0 0 0.25rem rgb(85 171 183 / 45%) !important;
+}
+
+
